@@ -2,7 +2,7 @@ spring:
   application:
     name: flightapp-auth-service
   datasource:
-    url: jdbc:mysql://localhost:3306/flightapp?allowPublicKeyRetrieval=true&useSSL=false
+    url: jdbc:mysql://localhost:3306/flightapp?useSSL=false&allowPublicKeyRetrieval=true&createDatabaseIfNotExist=true
     username: root
     password: root
   jpa:
